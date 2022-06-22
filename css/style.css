@@ -1,0 +1,154 @@
+/*Import das fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Outfit:wght@400;700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Lobster&family=Outfit:wght@400;700&display=swap');
+
+/*Zera as configurações default dos browsers*/
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/*Configura o body para o flex-box*/
+
+body {
+
+	width: 1440px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	background-color: hsl(233, 47%, 7%);
+
+}
+
+/*Configura o container para o flex-box*/
+
+.container {
+
+	width: 100%;
+	height: 65%;
+	margin: 10% 0 15% 15%;
+	background: hsl(244, 38%, 16%);
+	display: flex;
+	border-radius: 10px;	
+}
+
+/*Configura a div onde está os textos*/
+
+.text {
+
+	width: 50%;
+	height: 100%;
+	padding: 5%;
+	color: hsl(0, 0%, 100%);
+	
+}
+
+/*Configura o h1 da div "text"*/
+
+.text > h1 {
+
+	width: 90%;
+	text-align: left;
+	font-size: 45px;
+	margin-top: 7%;
+	margin-bottom: 10%;
+	font-family: 'Inter', sans-serif;
+
+}
+
+/*Configura o span com cor diferente*/
+
+.text span {
+
+	color: hsl(277, 64%, 61%);
+
+}
+
+/*Configura o parágrafo da div "text"*/
+
+.text > p {
+
+	width: 90%;
+	font-size: 21px;
+	margin-bottom: 10%;
+	color: hsla(0, 0%, 100%, 0.5);
+	font-family: 'Inter', sans-serif;
+	
+}
+
+/*Configura o container para os cards*/
+
+.card-container {
+	
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+/*Configura os cards*/
+
+.card {
+
+	width: auto;
+	display: inline-block;
+	font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.card h1 {
+
+	font-size: 30px;
+
+}
+
+.card > p {
+
+	color: hsla(0, 0%, 100%, 0.5);
+	font-size: 16px;
+	text-transform: uppercase;
+	
+}
+
+/*Configura a imagem*/
+
+.image {
+
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(rgba(160, 87, 205, 0.5), rgba(160, 87, 205, 0.5)),
+				 url(../images/image-header-desktop.jpg) no-repeat;
+	background-size: cover;
+	border-radius: 0 10px 10px 0;
+		
+}
+
+/*Configura o rodapé*/
+
+.rodape {
+
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+
+}
+
+.atribuicao {
+
+	color: hsla(0, 0%, 100%, 0.5);
+
+}
+
+.atribuicao a {
+
+	color: hsla(0, 0%, 100%, 0.5);
+	text-decoration: none;
+
+}
